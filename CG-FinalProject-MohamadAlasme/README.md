@@ -13,11 +13,13 @@ In this game, you control a 3D avatar navigating through a high-stakes environme
 Upon losing, the game features a full state-reset: the player returns to the start, the coin counter is zeroed, and all collected coins reappear.
 
 🕹️ Controls
-Key              Action
-W               Move Forward
-S               Move Backward
-A               Move Left
-D               Move Right
-Space           Jump
-Left Shift      Sprint (Double Speed)
-ESC             Quit Game
+
+
+Key                            Action
+W                            Move Forward
+S                            Move Backward
+A                            Move Left
+D                            Move Right
+Space                        Jump
+Left Shift                   Sprint (Double Speed)
+ESC                          Quit Game
