@@ -1,0 +1,47 @@
+﻿LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4217: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(init.obj)' in function '_glfwParseUriList'
+LINK : warning LNK4286: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(input.obj)'
+LINK : warning LNK4286: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(context.obj)'
+LINK : warning LNK4286: symbol 'strncmp' defined in 'libucrtd.lib(strncmp.obj)' is imported by 'glfw3.lib(egl_context.obj)'
+LINK : warning LNK4217: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(init.obj)' in function 'defaultDeallocate'
+LINK : warning LNK4217: symbol 'free' defined in 'libucrtd.lib(free.obj)' is imported by 'glfw3.lib(null_init.obj)' in function '_glfwConnectNull'
+LINK : warning LNK4217: symbol 'malloc' defined in 'libucrtd.lib(malloc.obj)' is imported by 'glfw3.lib(init.obj)' in function 'defaultAllocate'
+LINK : warning LNK4217: symbol 'realloc' defined in 'libucrtd.lib(realloc.obj)' is imported by 'glfw3.lib(init.obj)' in function 'defaultReallocate'
+LINK : warning LNK4217: symbol 'strtol' defined in 'libucrtd.lib(strtox.obj)' is imported by 'glfw3.lib(init.obj)' in function '_glfwParseUriList'
+LINK : warning LNK4217: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'glfw3.lib(init.obj)' in function '_glfwInputError'
+LINK : warning LNK4217: symbol '__stdio_common_vsprintf' defined in 'libucrtd.lib(output.obj)' is imported by 'glfw3.lib(win32_joystick.obj)' in function '_glfwDetectJoystickConnectionWin32'
+LINK : warning LNK4217: symbol 'strcspn' defined in 'libucrtd.lib(strcspn.obj)' is imported by 'glfw3.lib(input.obj)' in function 'glfwUpdateGamepadMappings'
+LINK : warning LNK4217: symbol 'strtoul' defined in 'libucrtd.lib(strtox.obj)' is imported by 'glfw3.lib(input.obj)' in function 'parseMapping'
+LINK : warning LNK4217: symbol 'qsort' defined in 'libucrtd.lib(qsort.obj)' is imported by 'glfw3.lib(monitor.obj)' in function 'refreshVideoModes'
+LINK : warning LNK4217: symbol 'qsort' defined in 'libucrtd.lib(qsort.obj)' is imported by 'glfw3.lib(win32_joystick.obj)' in function 'deviceCallback'
+Source.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+Source.obj : error LNK2001: unresolved external symbol __glewBufferData
+Source.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+Source.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Source.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Source.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Source.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Source.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Source.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+Source.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+Source.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Source.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Source.obj : error LNK2001: unresolved external symbol __glewUniform3fv
+Source.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+Source.obj : error LNK2001: unresolved external symbol __glewUseProgram
+Source.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+Source.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+Source.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+Source.obj : error LNK2001: unresolved external symbol glewExperimental
+glfw3.lib(init.obj) : error LNK2019: unresolved external symbol __imp_strtok referenced in function _glfwParseUriList
+glfw3.lib(window.obj) : error LNK2019: unresolved external symbol __imp_strncpy referenced in function glfwWindowHintString
+glfw3.lib(input.obj) : error LNK2001: unresolved external symbol __imp_strncpy
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp_strncpy
+glfw3.lib(win32_joystick.obj) : error LNK2001: unresolved external symbol __imp_strncpy
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_strspn referenced in function glfwUpdateGamepadMappings
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_fmaxf referenced in function glfwGetGamepadState
+glfw3.lib(input.obj) : error LNK2019: unresolved external symbol __imp_fminf referenced in function glfwGetGamepadState
+glfw3.lib(monitor.obj) : error LNK2001: unresolved external symbol __imp_fminf
+glfw3.lib(null_monitor.obj) : error LNK2001: unresolved external symbol __imp_fminf
+glfw3.lib(context.obj) : error LNK2019: unresolved external symbol __imp___stdio_common_vsscanf referenced in function sscanf
+E:\Sets4\CG\CGl\Final project\x64\Debug\Final project.exe : fatal error LNK1120: 25 unresolved externals
